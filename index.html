@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calc">
+        <div id="screen"><h2 class="scrennn" id="screenn">0</h2></div>
+        <div id="numb" class="grid-container">
+            <div class="grid-container_num">
+                <button onclick=calcbuttonlistener(this.id,this.className) id="1" class="numbers"><h3>1</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="2" class="numbers"><h3>2</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="3" class="numbers"><h3>3</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="4" class="numbers"><h3>4</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="5" class="numbers"><h3>5</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="6" class="numbers"><h3>6</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="7" class="numbers"><h3>7</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="8" class="numbers"><h3>8</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="9" class="numbers"><h3>9</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="." class="numbers"><h3>.</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="0" class="numbers"><h3>0</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="equal" class="operator"><h3>=</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="backspace" class="operator"><i class="fas fa-backspace"></i></button>
+                
+            </div>
+            <div class="grid-container_op">
+                <button onclick=calcbuttonlistener(this.id,this.className) id="+" class="operator"><h3>+</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="-" class="operator"><h3>-</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="*" class="operator"><h3>x</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="/" class="operator"><h3>/</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="%" class="operator"><h3>%</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="^" class="operator"><h3>^</h3></button> 
+                <button onclick=calcbuttonlistener(this.id,this.className) id="clear" class="operator"><h3>C</h3></button>
+                <button onclick=calcbuttonlistener(this.id,this.className) id="squareroot" class="operator"><h3>sqrt</h3></button>
+            </div>
+            </div>
+        </div>
+</body>
+<script src="JS/script.js"></script>
+</html>
